@@ -1,0 +1,33 @@
+/* Import Kantumruy Pro from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    font-family: 'Kantumruy Pro', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #eb823c;
+    padding: 10px 20px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    margin-right: 25px;
+}
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
